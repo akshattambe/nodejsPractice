@@ -1,3 +1,16 @@
 const http = require('http');
 
-http
+const server = http.createServer((req, res) => {
+    if(req.url === '/'){
+        res.write('Welcome to this page');
+        res.end();
+    }
+
+    if(req.url === '/api/courses'){
+        res.write(JSON.stringify([1,2,3]));
+        res.end();
+    }
+});
+var port = 3000;
+server.listen(port);
+console.log('Listning in port : ' + port);
