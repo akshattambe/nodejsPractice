@@ -1,0 +1,22 @@
+{
+  "name": "nodejspractice",
+  "version": "1.0.0",
+  "description": "practicing NodeJS with JS",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshattambe/nodejsPractice.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Akshat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akshattambe/nodejsPractice/issues"
+  },
+  "homepage": "https://github.com/akshattambe/nodejsPractice#readme"
+}
